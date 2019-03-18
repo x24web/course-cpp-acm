@@ -1,0 +1,565 @@
+        html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+button,
+input { /* 1 */
+  overflow: visible;
+}
+button,
+select { /* 1 */
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+/* star main */
+body{
+	zoom:85%;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+	width: 1080px;
+	margin: auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #3A4043;
+}
+hr{
+    height: 1px;
+}
+/* end main */
+/* start header */
+.header .navbar{
+    overflow:hidden;
+    margin-top:8px;
+}
+.header .navbar .logo {
+    float: left;
+    margin: 5px 10px 0px 5px;
+}
+.header .navbar .logo img{
+    width: 40px;
+}
+.header .navbar ul {
+    float: left;
+    margin-top: 15px;
+}
+.header .navbar ul li{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: #3A4043;
+
+}
+.header .navbar ul li a:hover{
+    color: #cc27ed;
+}
+.header .navbar .info{
+    float: right;
+    margin-top: 15px;
+} 
+.header .navbar .info span{
+    float: left;
+    margin-right: 20px;
+    margin-top: 3px;
+    color: #3A4043;
+} 
+.header .navbar .info .icon{
+    float: left;
+    padding-top: 4px;
+} 
+.header .navbar .info .icon img{
+    margin-right:2px;
+} 
+.header .slider {
+    overflow: hidden;
+    height: 600px;
+    width: 1350px;
+    margin: auto;
+}
+.header .slider .cover {
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+.header .slider h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 250px;
+    color: #1369b6; 
+    margin-top: 5px;
+}
+/* end header */    
+/* start about */
+.about-us{
+    margin-top: 55px;
+    overflow: hidden;
+}
+.about-us .imge {
+    float: left;
+    width: 50%;
+}
+.about-us .imge img{
+    width: 100%
+}
+.about-us .short{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-top: 40px;
+}
+.about-us .short .border{
+    border-top:8px solid #EFEFEF;
+    border-bottom:8px solid #EFEFEF;
+    border-left:8px solid #EFEFEF;
+    padding: 0px 0px 15px 5px;
+    width: 89%;
+    float: right;
+    min-height: 125px;
+    line-height: 1.3;
+    margin-bottom: 34px;
+}
+.about-us .short h4{
+    font-size: 16px;
+    background: white;
+    font-weight: 500;
+    padding: 0px 5px;
+    text-align: justify;
+    line-height: 1.4;
+    margin: -15px -8px 1px 25px;
+    color: #3A4043;
+}
+.about-us .short button{
+    background: #DC4FD2;
+    border-radius: 25px;
+    width: 220px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    border: 0px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* end about */
+/* start services */
+.services{
+    overflow: hidden;
+}
+.services .info{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+.services .info p{
+    width: 80%;
+}
+.services .info .icon> div{
+    width: 30.33333%;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.services .info .icon img{
+    width: 50%;
+    padding-left: 25%;
+}
+.services .info .icon span{
+    display: block;
+    text-align: center;
+}
+.services .imge{
+    float: left; 
+    width: 50%;
+}
+.services .imge img{
+    width:100%
+}
+.services .more button{
+    background: #DC4FD2;
+    border-radius: 25px;
+    width: 220px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    border: 0px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.services .icon .more img{
+    width: auto
+}
+/* end services */
+.portfolio{
+    overflow: hidden;
+}
+.portfolio .imge{
+    width: 100px;
+    float: left;
+    margin: 1.5em 10px;
+}
+.portfolio .imge img{
+    width: 75%
+}
+.portfolio .info{
+    float: right;
+    width: 600px;
+    text-align: right
+}
+/* end protfolio */
+/* start work */
+.work{
+    overflow: hidden;
+    margin-top: 25px;
+}
+.work .full{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.work .full img{
+width: 100%;
+}
+.work .long {
+    float: right;
+    width: 33.33333333333%;
+    height:  560px;
+}
+.work .long img{
+    width: 97%;
+    padding-left: 3%;
+    height:  560px;
+}
+.work .four{
+    float: left;
+    width: 66.66666666666%;
+}
+.work .four >div{
+    float: left;
+    width: 50%;
+    height: 280px;
+    margin-bottom: 10px;
+}
+.work .four img{
+    width: 97%;
+    padding-left: 1.5%;
+    height: 270px;
+}
+.work .paragraph{
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+.work .button{
+    float: right;
+    margin-top: 20px;
+}
+.work .button button{
+    background: #DC4FD2;
+    border-radius: 25px;
+    width: 220px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    border: 0px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* end work */
+/* start say */
+.say {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.say h1{
+    margin-bottom: 10px;
+}
+.say .person1{
+    float: left;
+    width: 50%;
+}
+.say .person1 .imge{
+    width: 15%;
+    float: left;
+    margin-top: 20px;
+}
+.say .person1 .imge img{
+    width: 100%
+}
+.say .person1 span{
+    text-align: center;
+    display: block;
+}
+.say .person1 .paragraph{
+    width: 85%;
+    float: left;
+}
+.say .person1 p{
+    width: 85%;
+    margin-right: 10%;
+    margin-left:5%;
+    background: #F7F7F7;
+    padding: 10px 10px 10px 15px;
+    border-left:4px solid #DF4BC7;
+    color: #A5B4C3;
+    font-size: 14px;
+    text-align: justify;
+    min-height: 80px;
+}
+/* end say */
+/* start contact */
+.contact {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.contact .content{
+    float: left;
+    width: 60%;
+}
+.contact .content .hello{
+    float: left;
+    width: 75s%;
+}
+.contact .content .hello input{
+    width: 450px;
+    display: block;
+    padding-top: 10px;
+    margin-top: 20px;
+    border: 0px;
+    border-bottom: 2px solid #ddd;
+    font-size: 20px;
+}
+.contact .content .hello input:hover{
+    border-bottom: 2px solid rgba(220, 79, 210, 0.91);
+}
+.contact .content .hello input:active{
+    border-bottom: 2px solid #ca21eb;
+}
+
+.contact .content .hello button{
+    background: #DC4FD2;
+    border-radius: 25px;
+    width: 220px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    border: 0px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact .content .icon{
+    float: left;
+    width: 5.5%;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.contact .content .icon >div{
+    margin-top: 20px;
+    height: 35px;
+}
+.contact .content .icon img{
+    margin: 5px 5px 5px 5px;
+}
+.contact .info {
+    margin-top: 60px;
+    float: left;
+    width: 40%;
+}
+.contact .info >div{
+    padding-top: 20px;
+}
+.contact .info span{
+    margin-left: 15px;
+}
+/* end contact */
+/*start footer */
+.footer {
+    height: 60px;
+    margin-top:50px;
+
+}
+.footer .navbar2{
+    overflow:hidden;
+    margin-top:8px;
+    background-image: url(../img/4.png);
+    background-position: 100% 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+.footer .navbar2 .logo {
+    float: left;
+    margin: 5px 10px 0px 5px;
+}
+.footer .navbar2 .logo img{
+    width: 40px;
+}
+.footer .navbar2 ul {
+    float: left;
+    margin-top: 15px;
+}
+.footer .navbar2 ul li{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+.footer .navbar2 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer .navbar2 ul li a:hover{
+    color: #3A4043;
+}
+.footer .navbar2 .info{
+    float: right;
+    margin-top: 15px;
+} 
+.footer .navbar2 .info span{
+    float: left;
+    margin-right: 20px;
+    margin-top: 3px;
+    color: #ffffff;
+} 
+.footer .navbar2 .info .icon{
+    float: left;
+    padding-top: 5px;
+} 
+.footer .navbar2 .info .icon img{
+    margin-right:2px;
+} 
+/*end footer */
